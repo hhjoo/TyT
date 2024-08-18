@@ -85,6 +85,12 @@ document.addEventListener('DOMContentLoaded', () => {
             alert('Please select a game first.');
             return;
         }
+    });﻿ ﻿    
+    sourceCode.addEventListener('click', () => {﻿   
+     window.open('https://t.me/hamster_games_promo', '_blank');﻿    
+         
+      });﻿ 
+        
 
         const gameChoice = parseInt(selectedGame);
         const game = games[gameChoice];
@@ -296,8 +302,3 @@ document.addEventListener('DOMContentLoaded', () => {
             document.body.removeChild(textArea);
         }
           });
-
-    sourceCode.addEventListener('click', () => {
-        window.open('https://t.me/hamster_games_promo', '_blank');
-    });
-});
