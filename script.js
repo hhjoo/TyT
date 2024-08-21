@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
             name: 'My Clone Army',
             appToken: '74ee0b5b-775e-4bee-974f-63e7f4d5bacb',
             promoId: 'fe693b26-b342-4159-8808-15e3ff7f8767',
-            timing: 180000, // 180 seconds
+            timing: 20000, // 20 seconds
             attempts: 30,
         },
         4: {
@@ -40,6 +40,13 @@ document.addEventListener('DOMContentLoaded', () => {
             appToken: '61308365-9d16-4040-8bb0-2f4a4c69074c',
             promoId: '61308365-9d16-4040-8bb0-2f4a4c69074c',
             timing: 30000, // 30 seconds
+            attempts: 20,
+        },
+        7: {
+            name: 'Polysphere',
+            appToken: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+            promoId: '2aaf5aee-2cbc-47ec-8a3f-0962cc14bc71',
+            timing: 20000, // 20 seconds
             attempts: 20,
         }
     };
